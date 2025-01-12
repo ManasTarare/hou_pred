@@ -13,7 +13,7 @@ st.set_page_config(layout="wide")
 # Load the dataset
 @st.cache_data
 def load_data():
-    data = pd.read_csv("E:\\mov_rev\\Housing.csv")
+    data = pd.read_csv("Housing.csv")
     return data
 
 data = load_data()
