@@ -52,6 +52,7 @@ mae = mean_absolute_error(y_test, y_pred)
 
 # Title and Image
 st.title("House Price Prediction App")
+st.image("https://media.istockphoto.com/id/1415886888/photo/freshly-painted-craftsman-bungalow-house.jpg?s=612x612&w=0&k=20&c=uzf_2Zl4MPpvE8J8PzJeJLaXqyyXpOP1YvWsUbpns5g=", width=100)
 
 # Sidebar Metrics
 st.sidebar.header("Model Metrics")
